@@ -19,6 +19,7 @@ public class DigitalClock extends JFrame {
         timeLabel.setHorizontalAlignment(SwingConstants.CENTER);
         timeLabel.setFont(new Font("Arial", Font.BOLD, 40));
         timeLabel.setForeground(Color.BLUE);
+
         add(timeLabel, BorderLayout.CENTER);
 
         Timer timer = new Timer(1000, e -> updateTime());

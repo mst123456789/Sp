@@ -78,10 +78,11 @@ public class StudentRegistrationForm extends JFrame implements ActionListener {
         if (pythonCheck.isSelected()) courses += "Python ";
         if (cppCheck.isSelected()) courses += "C++ ";
 
-        JOptionPane.showMessageDialog(this,
-            "Name: " + name + "\nAge: " + age + "\nGender: " + gender +
-            "\nDepartment: " + department + "\nCourses: " + courses,
-            "Registration Details", JOptionPane.INFORMATION_MESSAGE);
+        JOptionPane.showMessageDialog(this,  
+            "Name: " + name + "\nAge: " + age + "\nGender: " + gender + "\nDepartment: " + department + 
+            "\nCourses: " + courses,  
+            "Registration Details",  
+            JOptionPane.INFORMATION_MESSAGE);
     }
 
     public static void main(String[] args) {
